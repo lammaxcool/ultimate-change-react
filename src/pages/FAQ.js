@@ -23,8 +23,10 @@ function FAQ() {
                     
                     <div className="col-9">
                         <div className="accordion accordion-flush" id="accordionFlushExample">
-                            <AccordionItem header="header 1" body="body 1" id="flush-headingOne" />
-                            
+                            <AccordionItem data_bs_parent="accordionFlushExample" heading_id="first-head" colapse_id="first-body" header="header1" body="body1" />
+                            <AccordionItem data_bs_parent="accordionFlushExample" heading_id="second-head" colapse_id="second-body" header="header2" body="body2" />
+                            <AccordionItem data_bs_parent="accordionFlushExample" heading_id="third-head" colapse_id="third-body" header="header3" body="body3" />
+
                         </div>
                     </div>
                 </div>
