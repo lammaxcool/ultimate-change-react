@@ -11,7 +11,6 @@ import appImg from '../images/app.png';
 import Button from '../components/Button';
 
 function Main() {
-    
     /**
      * use map to list items
      */
