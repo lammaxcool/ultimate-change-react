@@ -1,12 +1,14 @@
 import Card from "../components/Card";
 
+import "./Main.scss";
+
 import CardImg from "../images/Rectangle.png";
-import entryImg from '../images/entry.png'
-import adv1 from '../images/adv_1.png'
-import adv2 from '../images/adv_2.png'
-import adv3 from '../images/adv_3.png'
-import appImg from '../images/app.png'
-import Button from '../components/Button'
+import entryImg from '../images/entry.png';
+import adv1 from '../images/adv_1.png';
+import adv2 from '../images/adv_2.png';
+import adv3 from '../images/adv_3.png';
+import appImg from '../images/app.png';
+import Button from '../components/Button';
 
 function Main() {
     
@@ -83,29 +85,56 @@ function Main() {
                         </p>
                     </div>
                 </div>
+
+                <h1 className="main__title">СТАНЬ ЧАСТЬЮ НАШЕЙ СЕМЬИ</h1>
+                <p className="main__text">
+                    Я создала гибкую систему подбора курсов, которая поможет девушкам с разными типами телосложения выбрать подходящий под их цели курс и план питания. Идеальное тело на расстоянии нескольких шагов.
+                </p>
                 
-                <div className="main__courses container">
-                    <div className="row">
-                        <div className="col-md-4">
-                            <Card className="card mb-4" name="Новичок" src={CardImg} price="1500" />
+                <div className="main__courses">
+                    <p className="courses__title">ШАГ 1: ВЫБЕРИ ЦЕЛЬ ЗАНЯТИЙ</p>
+                    <div className="container w-50">
+                        <div className="d-flex justify-content-between">
+                            <Button color="light-black" name="На все тело" />
+                            <Button color="light-black" name="Красивые ягодицы" />
+                            <Button color="light-black" name="Похудение, сушка, рельеф" />
+                            <Button color="light-black" name="Растяжка" />
                         </div>
-                        <div className="col-md-4">
-                            <Card className="card mb-4" name="Новичок" src={CardImg} price="1500" />
+                    </div>
+
+                    <p className="courses__title">ШАГ 2: ВЫБЕРИ МЕСТО ЗАНЯТИЙ</p>
+                    <div className="container w-25">
+                        <div className="d-flex justify-content-between">
+                            <Button color="light-black" name="Дома" />
+                            <Button color="light-black" name="В зале" />
                         </div>
-                        <div className="col-md-4">
-                            <Card className="card mb-4" name="Новичок" src={CardImg} price="1500" />
-                        </div>
-                        <div className="col-md-4">
-                            <Card className="card mb-4" name="Новичок" src={CardImg} price="1500" />
-                        </div>
-                        <div className="col-md-4">
-                            <Card className="card mb-4" name="Новичок" src={CardImg} price="1500" />
-                        </div>
-                        <div className="col-md-4">
-                            <Card className="card mb-4" name="Новичок" src={CardImg} price="1500" />
+                    </div>   
+
+                    <p className="courses__title">ШАГ 3: ВЫБЕРИ И КУПИ ПОДХОДЯЩИЙ КУРС</p>
+                    <div className="container w-75">
+                        <div className="row">
+                            <div className="col-md-4">
+                                <Card className="card mb-4" name="Новичок" src={CardImg} price="1500" />
+                            </div>
+                            <div className="col-md-4">
+                                <Card className="card mb-4" name="Новичок" src={CardImg} price="1500" />
+                            </div>
+                            <div className="col-md-4">
+                                <Card className="card mb-4" name="Новичок" src={CardImg} price="1500" />
+                            </div>
+                            <div className="col-md-4">
+                                <Card className="card mb-4" name="Новичок" src={CardImg} price="1500" />
+                            </div>
+                            <div className="col-md-4">
+                                <Card className="card mb-4" name="Новичок" src={CardImg} price="1500" />
+                            </div>
+                            <div className="col-md-4">
+                                <Card className="card mb-4" name="Новичок" src={CardImg} price="1500" />
+                            </div>
                         </div>
                     </div>
                 </div>
+
             </div>
         </>
     );

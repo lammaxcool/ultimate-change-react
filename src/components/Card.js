@@ -7,7 +7,7 @@ function Card(props) {
         <>
             <div className="card mb-4">
                 <p>{props.name}</p>
-                <img className="card-img-top"  src={props.src} data-holder-rendered="true"></img>
+                <img className="card-img-top" src={props.src} data-holder-rendered="true"></img>
                 <div className="card-body">
                     <div className="d-flex justify-content-between align-items-center">
                         <Button name="Купить"/>
