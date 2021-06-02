@@ -85,13 +85,14 @@ function Main() {
                         </p>
                     </div>
                 </div>
-
-                <h1 className="main__title">СТАНЬ ЧАСТЬЮ НАШЕЙ СЕМЬИ</h1>
-                <p className="main__text">
-                    Я создала гибкую систему подбора курсов, которая поможет девушкам с разными типами телосложения выбрать подходящий под их цели курс и план питания. Идеальное тело на расстоянии нескольких шагов.
-                </p>
                 
-                <div className="main__courses">
+                <div className="main__block courses">
+
+                    <h1 className="courses__title">СТАНЬ ЧАСТЬЮ НАШЕЙ СЕМЬИ</h1>
+                    <p className="courses__text">
+                        Я создала гибкую систему подбора курсов, которая поможет девушкам с разными типами телосложения выбрать подходящий под их цели курс и план питания. Идеальное тело на расстоянии нескольких шагов.
+                    </p>
+
                     <p className="courses__title">ШАГ 1: ВЫБЕРИ ЦЕЛЬ ЗАНЯТИЙ</p>
                     <div className="container w-50">
                         <div className="d-flex justify-content-between">
