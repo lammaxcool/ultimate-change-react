@@ -84,28 +84,28 @@ function Main() {
                     </div>
                 </div>
                 
-                <div className="container">
-                <div className="row">
-                    <div className="col-md-4">
-                        <Card className="card mb-4 box-shadow" name="Новичок" src={CardImg} price="1500" />
-                    </div>
-                    <div className="col-md-4">
-                        <Card className="card mb-4 box-shadow" name="Новичок" src={CardImg} price="1500" />
-                    </div>
-                    <div className="col-md-4">
-                        <Card className="card mb-4 box-shadow" name="Новичок" src={CardImg} price="1500" />
-                    </div>
-                    <div className="col-md-4">
-                        <Card className="card mb-4 box-shadow" name="Новичок" src={CardImg} price="1500" />
-                    </div>
-                    <div className="col-md-4">
-                        <Card className="card mb-4 box-shadow" name="Новичок" src={CardImg} price="1500" />
-                    </div>
-                    <div className="col-md-4">
-                        <Card className="card mb-4 box-shadow" name="Новичок" src={CardImg} price="1500" />
+                <div className="main__courses container">
+                    <div className="row">
+                        <div className="col-md-4">
+                            <Card className="card mb-4" name="Новичок" src={CardImg} price="1500" />
+                        </div>
+                        <div className="col-md-4">
+                            <Card className="card mb-4" name="Новичок" src={CardImg} price="1500" />
+                        </div>
+                        <div className="col-md-4">
+                            <Card className="card mb-4" name="Новичок" src={CardImg} price="1500" />
+                        </div>
+                        <div className="col-md-4">
+                            <Card className="card mb-4" name="Новичок" src={CardImg} price="1500" />
+                        </div>
+                        <div className="col-md-4">
+                            <Card className="card mb-4" name="Новичок" src={CardImg} price="1500" />
+                        </div>
+                        <div className="col-md-4">
+                            <Card className="card mb-4" name="Новичок" src={CardImg} price="1500" />
+                        </div>
                     </div>
                 </div>
-            </div>
             </div>
         </>
     );
