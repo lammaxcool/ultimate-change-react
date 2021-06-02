@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/ultimate-change-react/static/css/main.6145663d.chunk.css",
+    "main.js": "/ultimate-change-react/static/js/main.7cef1480.chunk.js",
+    "main.js.map": "/ultimate-change-react/static/js/main.7cef1480.chunk.js.map",
+    "runtime-main.js": "/ultimate-change-react/static/js/runtime-main.b329964d.js",
+    "runtime-main.js.map": "/ultimate-change-react/static/js/runtime-main.b329964d.js.map",
+    "static/js/2.3aeb769c.chunk.js": "/ultimate-change-react/static/js/2.3aeb769c.chunk.js",
+    "static/js/2.3aeb769c.chunk.js.map": "/ultimate-change-react/static/js/2.3aeb769c.chunk.js.map",
+    "static/js/3.9440913b.chunk.js": "/ultimate-change-react/static/js/3.9440913b.chunk.js",
+    "static/js/3.9440913b.chunk.js.map": "/ultimate-change-react/static/js/3.9440913b.chunk.js.map",
+    "index.html": "/ultimate-change-react/index.html",
+    "static/css/main.6145663d.chunk.css.map": "/ultimate-change-react/static/css/main.6145663d.chunk.css.map",
+    "static/js/2.3aeb769c.chunk.js.LICENSE.txt": "/ultimate-change-react/static/js/2.3aeb769c.chunk.js.LICENSE.txt",
+    "static/media/Rectangle.e42f3f89.png": "/ultimate-change-react/static/media/Rectangle.e42f3f89.png",
+    "static/media/adv_1.72efb05b.png": "/ultimate-change-react/static/media/adv_1.72efb05b.png",
+    "static/media/adv_2.f956bfd6.png": "/ultimate-change-react/static/media/adv_2.f956bfd6.png",
+    "static/media/adv_3.51ded8f8.png": "/ultimate-change-react/static/media/adv_3.51ded8f8.png",
+    "static/media/app.ee81d673.png": "/ultimate-change-react/static/media/app.ee81d673.png",
+    "static/media/entry.8cfc1cdc.png": "/ultimate-change-react/static/media/entry.8cfc1cdc.png",
+    "static/media/logo.eb53bf9b.png": "/ultimate-change-react/static/media/logo.eb53bf9b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b329964d.js",
+    "static/js/2.3aeb769c.chunk.js",
+    "static/css/main.6145663d.chunk.css",
+    "static/js/main.7cef1480.chunk.js"
+  ]
+}
