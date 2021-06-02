@@ -1,0 +1,17 @@
+.type-item {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px solid fuchsia;
+    color: #262626;
+
+    &:first-child {
+        border-top: 1px solid fuchsia;
+    }
+
+    img {
+        max-width: 50px;
+        margin-right: 20px;
+    }
+}

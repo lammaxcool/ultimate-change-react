@@ -1,0 +1,28 @@
+header {
+    a {
+        text-decoration: none;
+    }
+
+    p {
+        color: white !important;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    background: rgba(0, 0, 0, 0.05);
+    
+    &.py-3 {
+        padding: 0 !important;
+    }
+
+    button {
+        margin-right: 100px;
+    }
+}
+
+
+.px-2 {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+}

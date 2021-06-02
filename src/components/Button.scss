@@ -1,0 +1,25 @@
+button {
+    background-color: fuchsia !important;
+    border: none !important;
+    border-radius: 20px !important;
+    min-height: 50px;
+    max-width: 150px;
+}
+
+.btn-color- {
+    &fuchsia {
+        background-color: fuchsia !important;
+
+        &:hover {
+            background-color: #262626 !important;
+        }
+    }
+
+    &light-black {
+        background-color: #262626 !important;
+
+        &:hover {
+            background-color: fuchsia !important;
+        }
+    }
+}
